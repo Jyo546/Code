@@ -1,10 +1,10 @@
 RUMOR MILL: Tracking Viral Rumors Through Textual Analysis
 
-Overview
+Overview:
 RUMOR MILL is a project aimed at developing a framework for tracking viral rumors through textual analysis. In the era of social media, rumors and misinformation spread rapidly, impacting public opinion and shaping narratives. RUMOR MILL leverages natural language processing (NLP), machine learning, and social media analysis techniques to automatically detect, monitor, and assess the veracity of rumors circulating across online platforms.
 
 
-Features
+Features:
 Data collection from various sources, including social media feeds and online news articles.
 Text preprocessing to clean and tokenize textual data.
 Feature extraction including sentiment analysis, topic modeling, and lexical features.
@@ -12,7 +12,7 @@ Model development using machine learning algorithms for rumor detection and trac
 Evaluation and validation of the trained models using ground truth data.
 Ethical considerations regarding the use of data and technology for rumor tracking.
 
-Dataset
+Dataset:
 The dataset used in this project (newdataset.csv) can be found here. Please download the dataset and place it in the data directory before running the project.
 
 Requirements
