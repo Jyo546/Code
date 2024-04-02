@@ -20,24 +20,33 @@ Python 3.x
 
 Libraries: pandas, numpy, scikit-learn, nltk, matplotlib, seaborn
 Installation
+
 Clone the repository:
 bash
 Copy code
+
 git clone https://github.com/Jyo546/RumorMill.git
 cd rumor-mill
+
 Install the required dependencies:
 bash
 Copy code
+
 pip install -r requirements.txt
+
 Usage
 Download the dataset from the provided link and place it in the data directory.
+
 Run the main script:
 bash
 Copy code
 python rumor_mill.py
+
 Follow the prompts to preprocess the data, extract features, train models, and evaluate the performance of the rumor tracking system.
+
 References
 For more information and related research papers, please refer to the References section.
+
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
