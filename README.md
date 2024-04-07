@@ -8,7 +8,7 @@ The newdataset.csv file contains the dataset. Load the dataset and explore its s
 
 Train multiple classification models (LinearSVC, Random Forest, KNN, Decision Tree) on the preprocessed text data. Evaluate each model's performance using accuracy and classification report. Model Serialization:
 
-Save the trained LinearSVC model as a pickle file (rumor_classifier.pkl) using the pickle module. Model Deployment:
+Save the trained best_model as a pickle file (rumor_classifier.pkl) using the pickle module. Model Deployment:
 
 Load the serialized model from rumor_classifier.pkl into rumor_classification_app.py and run stramlit run rumor_classification_app.py in command prompt to make classification of rumors. Requirements: Python 3.x Libraries: numpy, pandas, matplotlib, seaborn, scikit-learn, streamlit Instructions: Install the required libraries: pip install -r requirements.txt Execute the Jupyter Notebook rumor_label_prediction.ipynb to train models and save the LinearSVC model. Use the saved model (rumor_classifier.pkl) for prediction by providing input text.
 
