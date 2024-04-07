@@ -2,7 +2,7 @@ Title: Classification of Rumor Labels using Machine Learning Models
 
 Description: This repository contains code for training and evaluating various machine learning models to predict rumor labels based on text data. The models are trained on a dataset (newdataset.csv) containing text samples and corresponding rumor labels.
 
-Files: newdataset.csv: Dataset containing sourceid,source,rumor labels and text. coapps_x.ipynb: Jupyter Notebook containing the Python code for data preprocessing, model training, evaluation, and saving the trained model as a pickle file. rumor_classifier.pkl: Pickle file containing the trained random forest model. README.md: This file. Usage: Data Exploration and Preprocessing:
+Files: newdataset.csv: Dataset containing sourceid,source,rumor labels and text. coapps_x.ipynb: Jupyter Notebook containing the Python code for data preprocessing, model training, evaluation, and saving the trained model as a pickle file. rumor_classifier.pkl: Pickle file containing the trained best_model. README.md: This file. Usage: Data Exploration and Preprocessing:
 
 The newdataset.csv file contains the dataset. Load the dataset and explore its structure using pandas. Preprocess the text data (e.g., removing stopwords, tokenization, vectorization). Model Training and Evaluation:
 
